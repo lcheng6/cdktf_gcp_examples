@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cdktf-gcp-examples"
+version = "0.1.0"
+description = ""
+authors = ["Liang Cheng <liangcheng@kl2tech.com>"]
+readme = "README.md"
+packages = [{include = "cdktf_gcp_examples"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+cdktf = "^0.15.5"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
